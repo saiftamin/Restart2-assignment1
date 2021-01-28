@@ -4,8 +4,12 @@ body {
     h1 {
     font-size: 40px;
     }
+    .text-align {
+        text-align: left;
+    }
     p {
     color: rgb(65, 61, 61);
+    text-align: justify;
     }
     .tomato-highlight{
     color: tomato;
