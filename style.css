@@ -1,64 +1,101 @@
 body{
     font-family: 'Poppins', sans-serif;
-}
-h1{
+    }
+    h1{
     font-size: 40px;
-}
-p {
-    color: dimgray;
-}
-.tomato-highlight{
+    }
+    p {
+    color: rgb(65, 61, 61);
+    }
+    .tomato-highlight{
     color: tomato;
-}
-.half-width{
+    }
+    .half-width{
     width: 40%;
     float: left;
-    margin-left: 1%;
+    margin-left: 2%;
     padding-left: 8%;
-}
-.half-width img{
-        width: 80%;
-        
-}
-section{
+    }
+    .half-width img{
+    width: 80%;
+    }
+    section{
     height: 500px;
     padding-bottom: 80px;
-}
-.link-button{
+    }
+    .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg,cyan,blue);
     padding: 9px 25px;;
     border-radius: 8px;
     color: white;
     font-weight: 700;
-}
-.about{
+    }
+    .about{
     text-align: center;
     font-weight: 900;
-}
-.latest-project{
+    }
+    .latest-project{
     text-align: center;
-    padding-bottom: 5px;
-}
-.latest-area{
-    text-align: center;
-}
-.section-alignment img{
-    width: 25%;
+    }
+    .column{
     float: left;
-    margin-left: 2%;
-    padding-left: 5%;
-    
-}
-img{
-    width: 85%;
-    display: block;
-    margin: 0 auto 0 auto;
-}
-.social-media{
-    border:none;
-    padding:10px 20px;
-    font-size: 2rem;
-    border-radius: 5px;
-    color: blue;
-}
+    width: 31%;
+    padding: 10px;
+    margin-left: 3px;
+    padding-bottom: 80px;
+    }
+    #container{
+        background: url(images/body.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+        margin-top: 20px;
+        padding-bottom: 10px;
+                
+    }
+    .text-color{
+        margin-left: 100px;
+        margin-top:200px; 
+        padding-left: 50px;
+        float: left;
+        color:whitesmoke;
+        font-weight: 700; 
+               
+    }
+    .button {
+        text-decoration: none;
+        background-image: linear-gradient(45deg,lightsalmon, tomato);
+        padding: 10px 25px;;
+        border-radius: 8px;
+        color:white);
+        font-weight: 700;
+        margin-left: 700px;
+        float: left;
+        margin-top:200px; 
+     }
+     
+ 
+    .insert-icons{
+    font-size: 25px;
+    color:rgb(97, 92, 92);
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    flex-direction: column;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 100%;
+    height: 15%;
+    }
+    .insert-icons h3{
+    color: rgb(9, 9, 71);
+    margin-top: 1px;
+    font-weight: 800;
+    }
+    .icons img{
+    width: 40px;
+    height: 40px;
+    margin:5px;
+    }
